@@ -1,4 +1,4 @@
-package dev.sharma.akash.api.restaurant.repository;
+package dev.sharma.akash.api.restaurant.menu.repository;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -8,7 +8,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import dev.sharma.akash.api.restaurant.model.MenuItem;
+import dev.sharma.akash.api.restaurant.menu.model.MenuItem;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import jakarta.persistence.criteria.CriteriaBuilder;
@@ -62,5 +62,4 @@ public class MenuItemRepositoryImpl implements MenuItemRepository {
 		log.info("Successfully fetched {} MenuItems for {} category", menuItems.size(), category);
 		return menuItems;
 	}
-
 }

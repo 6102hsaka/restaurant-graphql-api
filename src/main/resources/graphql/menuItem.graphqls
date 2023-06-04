@@ -6,3 +6,8 @@ type MenuItem {
 	isVeg: Boolean!
 	price: Float!
 }
+
+type Query {
+	getAllMenuItem: [MenuItem!]!
+	getAllMenuItemByCategory(category: String): [MenuItem!]!
+}

@@ -1,4 +1,4 @@
-package dev.sharma.akash.api.restaurant.controller;
+package dev.sharma.akash.api.restaurant.menu.controller;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -9,8 +9,8 @@ import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dev.sharma.akash.api.restaurant.model.MenuItem;
-import dev.sharma.akash.api.restaurant.service.MenuItemService;
+import dev.sharma.akash.api.restaurant.menu.model.MenuItem;
+import dev.sharma.akash.api.restaurant.menu.service.MenuItemService;
 import graphql.schema.DataFetchingFieldSelectionSet;
 import lombok.extern.slf4j.Slf4j;
 

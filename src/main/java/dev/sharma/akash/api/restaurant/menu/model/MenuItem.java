@@ -1,4 +1,4 @@
-package dev.sharma.akash.api.restaurant.model;
+package dev.sharma.akash.api.restaurant.menu.model;
 
 import jakarta.annotation.Nonnull;
 import jakarta.persistence.Entity;

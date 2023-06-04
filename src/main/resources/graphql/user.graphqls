@@ -1,0 +1,9 @@
+type User {
+	email: String!
+	name: String!
+	imageUrl: String
+}
+
+type Mutation {
+	addUser: User
+}
