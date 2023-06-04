@@ -1,0 +1,4 @@
+type Query {
+	getAllMenuItem: [MenuItem!]!
+	getAllMenuItemByCategory(category: String): [MenuItem!]!
+}

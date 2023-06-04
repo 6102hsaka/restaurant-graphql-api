@@ -1,0 +1,8 @@
+type MenuItem {
+	id: ID!
+	name: String!
+	description: String!
+	category: String!
+	isVeg: Boolean!
+	price: Float!
+}
